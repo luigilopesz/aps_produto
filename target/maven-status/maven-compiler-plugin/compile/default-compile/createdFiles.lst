@@ -1,0 +1,5 @@
+br\insper\produto\produto\ProdutoController.class
+br\insper\produto\produto\ProdutoService.class
+br\insper\produto\produto\ProdutoRepository.class
+br\insper\produto\ProdutoApplication.class
+br\insper\produto\produto\Produto.class
