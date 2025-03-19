@@ -48,5 +48,5 @@ jobs:
         port: 22
         script: |
           docker stop produto
-          docker rm --force prova_i
-          docker run -d -p 8080:8080 --name prova_i luigilopesz/produto:${{ github.sha }}
+          docker rm --force produto
+          docker run -d -p 8080:8080 --name produto luigilopesz/produto:${{ github.sha }}
