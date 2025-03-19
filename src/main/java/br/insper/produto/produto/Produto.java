@@ -52,7 +52,7 @@ public class Produto {
         this.quantidadeEstoque = quantidadeEstoque;
     }
 
-    public void diminuirEstoque(int quantidade) {
+    public void diminuirEstoque(int quantidade) { 
         if (this.quantidadeEstoque >= quantidade) {
             this.quantidadeEstoque -= quantidade;
         } else {
